@@ -1,0 +1,6 @@
+X <-scan("D:/X.txt")
+Y <-scan("D:/Y.txt")
+Z <-scan("D:/Z.txt")
+data <-data.frame(X,Y,Z)
+library(rgl)
+plot3d(data)
